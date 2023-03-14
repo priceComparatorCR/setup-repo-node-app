@@ -6,6 +6,9 @@ inputs:
     description: Nodejs version to use
     required: true
     default: "16"
+  working-directory:
+    description: Directory of the node application in the mono repo
+    required: true
   other-patterns-to-sparse-checkout:
     description: Other patterns to sparse checkout
     required: false
