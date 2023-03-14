@@ -19,7 +19,7 @@ runs:
   steps:
     - shell: bash
       run: echo "🤙 Sparse checkout ${{inputs.working-directory}}"
-    - uses: priceComparatorCR/sparse-checkout@v0.1
+    - uses: priceComparatorCR/sparse-checkout@v1.0
       with:
         patterns: ${{inputs.working-directory}} ${{inputs.other-patterns-to-sparse-checkout}}
     - shell: bash
